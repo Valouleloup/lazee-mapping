@@ -1,17 +1,21 @@
-## Lazee mapping
+# Lazee mapping
 
 Generate a markdown documentation about your doctrine mapping associations in 2 seconds.
 
-## Prerequisites
+### Prerequisites
 
 - Doctrine
 - The namespace of your entities contains ` Entities `
 
-## Usage
+### Install
+
+Import the command file in your project.
+
+### Usage
 
 ` bin/console app:lazee-mapping:generate `
 
-## Result
+### Result
 
 > ### AppBundle\Entity\UserAffiliate
 > - `OneToOne` Affiliate : AppBundle\Entity\UserAffiliate est lié à un seul `Affiliate`
@@ -33,5 +37,3 @@ Generate a markdown documentation about your doctrine mapping associations in 2 
 > - `ManyToOne` Website : AppBundle\Entity\CreationGroup est lié à un seul `Website`
 > - `ManyToOne` Canal : AppBundle\Entity\CreationGroup est lié à un seul `Canal`
 > - `OneToMany` Creation : AppBundle\Entity\CreationGroup est lié à plusieurs `Creation`
-
-## Pre
