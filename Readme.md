@@ -17,6 +17,8 @@ Import the command file in your project.
 
 ### Result
 
+The result is markdown-formatted text about your doctrine association mapping, ready to insert in your github/gitlab project's ` README.md `.
+
 > ### AppBundle\Entity\UserAffiliate
 > - `OneToOne` Affiliate : AppBundle\Entity\UserAffiliate est lié à un seul `Affiliate`
 > 
